@@ -1,0 +1,86 @@
+2025-10-06 17:54:23 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-10-06 17:54:23 INFO  c.e.c.CloudSpringLoadZipApplication - Starting CloudSpringLoadZipApplication using Java 24.0.1 with PID 21488 (C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\target\classes started by Komputer in C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip)
+2025-10-06 17:54:23 INFO  c.e.c.CloudSpringLoadZipApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-06 17:54:23 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-06 17:54:23 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-06 17:54:23 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-06 17:54:23 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-06 17:54:23 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-06 17:54:23 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-06 17:54:23 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-06 17:54:23 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 767 ms
+2025-10-06 17:54:24 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-06 17:54:24 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-10-06 17:54:24 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-06 17:54:24 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-06 17:54:24 INFO  c.e.c.CloudSpringLoadZipApplication - Started CloudSpringLoadZipApplication in 4.597 seconds (process running for 4.85)
+2025-10-06 17:55:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06 17:55:42 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-06 17:55:42 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-06 17:56:49 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 54 ms
+2025-10-06 17:59:00 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06 17:59:00 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-06 17:59:25 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-10-06 17:59:25 INFO  c.e.c.CloudSpringLoadZipApplication - Starting CloudSpringLoadZipApplication using Java 24.0.1 with PID 20484 (C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\target\classes started by Komputer in C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip)
+2025-10-06 17:59:25 INFO  c.e.c.CloudSpringLoadZipApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-06 17:59:25 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-06 17:59:25 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-06 17:59:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-06 17:59:26 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-06 17:59:26 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-06 17:59:26 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-06 17:59:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-06 17:59:26 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 704 ms
+2025-10-06 17:59:26 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-06 17:59:26 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-10-06 17:59:26 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-06 17:59:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-06 17:59:26 INFO  c.e.c.CloudSpringLoadZipApplication - Started CloudSpringLoadZipApplication in 4.392 seconds (process running for 4.608)
+2025-10-06 18:00:03 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06 18:00:03 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-06 18:00:03 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-06 18:00:03 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 76 ms
+2025-10-06 18:01:25 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06 18:01:25 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-06 18:01:40 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-10-06 18:01:40 INFO  c.e.c.CloudSpringLoadZipApplication - Starting CloudSpringLoadZipApplication using Java 24.0.1 with PID 17248 (C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\target\classes started by Komputer in C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip)
+2025-10-06 18:01:40 INFO  c.e.c.CloudSpringLoadZipApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-06 18:01:40 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-06 18:01:40 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-06 18:01:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-06 18:01:41 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-06 18:01:41 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-06 18:01:41 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-06 18:01:41 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-06 18:01:41 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 700 ms
+2025-10-06 18:01:41 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-06 18:01:41 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-10-06 18:01:41 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-06 18:01:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-06 18:01:41 INFO  c.e.c.CloudSpringLoadZipApplication - Started CloudSpringLoadZipApplication in 4.402 seconds (process running for 4.624)
+2025-10-06 18:01:50 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06 18:01:50 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-06 18:01:50 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-10-06 18:01:50 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 123 ms
+2025-10-06 19:21:50 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06 19:21:50 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-06 19:22:15 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-10-06 19:22:15 INFO  c.e.c.CloudSpringLoadZipApplication - Starting CloudSpringLoadZipApplication using Java 24.0.1 with PID 18360 (C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\target\classes started by Komputer in C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip)
+2025-10-06 19:22:15 INFO  c.e.c.CloudSpringLoadZipApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-06 19:22:15 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-06 19:22:15 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-06 19:22:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-06 19:22:16 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-06 19:22:16 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-06 19:22:16 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-06 19:22:16 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-06 19:22:16 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 768 ms
+2025-10-06 19:22:16 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-06 19:22:16 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-10-06 19:22:16 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-06 19:22:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-06 19:22:16 INFO  c.e.c.CloudSpringLoadZipApplication - Started CloudSpringLoadZipApplication in 4.543 seconds (process running for 4.786)
+2025-10-06 19:22:23 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06 19:22:23 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-06 19:22:23 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-10-06 19:22:23 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 115 ms

@@ -1,0 +1,52 @@
+spring:
+  application:
+    name: file-demo
+
+
+  # Multipart file configuration
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+      enabled: true
+
+  mvc:
+    static-path-pattern: "/static/**"
+
+  web:
+    resources:
+      add-mappings: false
+
+app:
+  file:
+    max-size-mb: 10
+    allowed-extensions:
+      - .txt
+      - .pdf
+      - .doc
+      - .docx
+      - .jpg
+      - .jpeg
+      - .png
+      - .gif
+    storage:
+      type: local
+      backup-enabled: true
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    operations-sorter: method
+    tags-sorter: alpha
+    try-it-out-enabled: true
+    filter: true
+    display-request-duration: true
+  packages-to-scan: com.example.cloud_spring_load_zip.controllers  # Исправлено на org.example
+  paths-to-match: /api/**
+
+file:
+  upload-dir: ./uploads
