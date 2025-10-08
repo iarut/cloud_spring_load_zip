@@ -1,6 +1,7 @@
 C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\CloudSpringLoadZipApplication.java
 C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\controllers\FileArchiveController.java
 C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\controllers\FileController.java
+C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\controllers\ProductController.java
 C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\exception\CustomGlobalExceptionHandler.java
 C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\exception\FileStorageException.java
 C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\exception\GlobalExceptionHandler.java
@@ -9,6 +10,8 @@ C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\c
 C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\exception\ProductException.java
 C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\model\Product.java
 C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\OpenAPIConfiguration.java
+C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\repository\ProductRepository.java
 C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\service\FileArchiveService.java
 C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\service\FileStorageProperties.java
 C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\service\FileStorageService.java
+C:\Users\Komputer\IdeaProjects\cloud_spring_load_zip\src\main\java\com\example\cloud_spring_load_zip\service\ProductService.java

@@ -1,5 +1,7 @@
 com\example\cloud_spring_load_zip\exception\MyFileNotFoundException.class
 com\example\cloud_spring_load_zip\exception\ProductException.class
+com\example\cloud_spring_load_zip\controllers\ProductController$QueueStats.class
+com\example\cloud_spring_load_zip\repository\ProductRepository.class
 com\example\cloud_spring_load_zip\controllers\FileArchiveController.class
 com\example\cloud_spring_load_zip\service\FileStorageService.class
 com\example\cloud_spring_load_zip\controllers\FileController.class
@@ -11,4 +13,6 @@ com\example\cloud_spring_load_zip\CloudSpringLoadZipApplication.class
 com\example\cloud_spring_load_zip\exception\FileStorageException.class
 com\example\cloud_spring_load_zip\model\Product.class
 com\example\cloud_spring_load_zip\exception\CustomGlobalExceptionHandler.class
+com\example\cloud_spring_load_zip\controllers\ProductController.class
 com\example\cloud_spring_load_zip\service\FileArchiveService.class
+com\example\cloud_spring_load_zip\service\ProductService.class
