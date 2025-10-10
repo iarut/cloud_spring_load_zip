@@ -172,23 +172,37 @@ public class ProductController {
 
 
     @ApiResponses({
-        @ApiResponse(responseCode = "204", description = "Продукт успешно изменён"),
-        @ApiResponse(responseCode = "400", description = "Некорректные данные продукта"),
-        @ApiResponse(responseCode = "500", description = "Внутренняя ошибка сервера"),
-        @ApiResponse(responseCode = "403", description = "Некорректный путь запроса")
-        })
-    @PutMapping
-    @Operation(summary = "Обновить данные о продукте", description = "В ответе возвращается объект Product c полями id, name, quantity и price.")
+            @ApiResponse(responseCode = "204", description = "Продукт успешно изменён"),
+            @ApiResponse(responseCode = "400", description = "Некорректные данные продукта"),
+            @ApiResponse(responseCode = "500", description = "Внутренняя ошибка сервера"),
+            @ApiResponse(responseCode = "403", description = "Некорректный путь запроса")
+    })
+    @PutMapping("/{id}")
+    @Operation(summary = "Обновить данные о продукте", description = "Обновляет или создаёт продукт по ID, принимая параметры отдельно.")
     @Tag(name = "изменение/добавление/удаление")
-    public ResponseEntity<Product> updateProduct(@Parameter(description = "Новые данные о продукте", required = true)
-                                                     @RequestBody @Valid Product product) {
+    public ResponseEntity<Product> updateProduct(
+            @Parameter(description = "ID продукта", required = true)
+            @PathVariable int id,
+            @Parameter(description = "Имя продукта", required = true)
+            @RequestParam String name,
+            @Parameter(description = "Количество продукта", required = true)
+            @RequestParam int quantity,
+            @Parameter(description = "Цена продукта", required = true)
+            @RequestParam double price) {
+
+        Product product = new Product();
+        product.setId(id);
+        product.setName(name);
+        product.setQuantity(quantity);
+        product.setPrice(price);
+
         activeRequests.incrementAndGet();
         requestCounter.increment();
         processingQueue.add(product);
+
         String result = processingTimer.record(() -> {
-            // Симуляция обработки
             try {
-                Thread.sleep(100); // Задержка для имитации времени обработки
+                Thread.sleep(100);
                 logger.debug("Saved product {}", product);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
@@ -196,9 +210,13 @@ public class ProductController {
             }
             return "Processed";
         });
+
         responseSizeSummary.record(result.getBytes(StandardCharsets.UTF_8).length);
         activeRequests.decrementAndGet();
-        return ResponseEntity.status(HttpStatus.FOUND).body(service.updateProduct(product).orElseThrow(() -> new ProductException("No product with such id "+product.getId()) ));
+
+        return ResponseEntity.status(HttpStatus.FOUND)
+                .body(service.updateProduct(id, product)
+                        .orElseThrow(() -> new ProductException("No product with such id " + id)));
     }
 
     @DeleteMapping("{id}")

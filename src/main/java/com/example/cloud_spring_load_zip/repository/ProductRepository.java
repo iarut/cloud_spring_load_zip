@@ -80,26 +80,30 @@ public class ProductRepository {
         }
     }
 
-    public Product update(Product product) {
-        int idx = 0;
-        int id = 0;
+    public Product update(int id, Product product) {
+        int idx = -1;
         for (int i = 0; i < list.size(); i++) {
-            if (list.get(i).getId() == (product.getId())) {
-                id = product.getId();
+            if (list.get(i).getId() == id) {
                 idx = i;
                 logger.info("Repository successfully updated product {}", product);
                 break;
             }
         }
 
-        Product product1 = new Product();
-        product1.setId(id);
-        product1.setName(product.getName());
-        product1.setQuantity(product.getQuantity());
-        product1.setPrice(product.getPrice());
-        list.set(idx, product);
-        logger.debug("Repository added new product {}", product1);
-        return product1;
+        if (idx == -1) { // если не нашли — добавляем новый
+            list.add(product);
+            logger.debug("Repository added new product {}", product);
+            return product;
+        }
+
+        Product updated = new Product();
+        updated.setId(id);
+        updated.setName(product.getName());
+        updated.setQuantity(product.getQuantity());
+        updated.setPrice(product.getPrice());
+        list.set(idx, updated);
+        logger.debug("Repository updated existing product {}", updated);
+        return updated;
     }
 
     public Map<String, List<Product>> getProductsByName() {

@@ -55,8 +55,9 @@ public class ProductService {
         return message.equals("Product with id " + id + " deleted");
     }
 
-    public Optional<Product> updateProduct(Product product) {
+    public Optional<Product> updateProduct(int id, Product product) {
         logger.debug("Service updating {}", product);
+
         if (product.getName() == null) {
             logger.error("Product name is null");
             return Optional.empty();
@@ -69,11 +70,8 @@ public class ProductService {
             logger.error("Product quantity is less than zero");
             return Optional.empty();
         }
-//        if (product.getId() == null) {
-//            logger.error("Product id is null");
-//            return Optional.empty();
-//        }
-        return Optional.ofNullable(repository.update(product));
+
+        return Optional.ofNullable(repository.update(id, product));
     }
 
     public Map<String, List<Product>> getProductsByName() {
