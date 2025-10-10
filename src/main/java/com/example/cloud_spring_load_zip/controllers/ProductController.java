@@ -183,18 +183,10 @@ public class ProductController {
     public ResponseEntity<Product> updateProduct(
             @Parameter(description = "ID продукта", required = true)
             @PathVariable int id,
-            @Parameter(description = "Имя продукта", required = true)
-            @RequestParam String name,
-            @Parameter(description = "Количество продукта", required = true)
-            @RequestParam int quantity,
-            @Parameter(description = "Цена продукта", required = true)
-            @RequestParam double price) {
+            @RequestBody Product product) {
 
-        Product product = new Product();
+
         product.setId(id);
-        product.setName(name);
-        product.setQuantity(quantity);
-        product.setPrice(price);
 
         activeRequests.incrementAndGet();
         requestCounter.increment();
